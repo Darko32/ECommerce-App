@@ -62,6 +62,26 @@ html {
   li{
       margin-top: 1rem;
   }
+  button{
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border: 0.1rem #848484 solid;
+      font-size: 1.6rem;
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: #f8f8f8;
+      cursor: pointer;
+  }
+  button:hover{
+      border: 0.1rem #404040 solid;
+  }
+  button.primary{
+      background-color: #f0c040;
+  }
+  button.block{
+      width: 100%;
+  }
   header a{
       color: white;
       padding: 1rem;
@@ -101,6 +121,9 @@ html {
       max-width: 29rem;
       width: 100%;
   }
+  img.large {
+      width: 100%;
+  }
   
   .card {
       border: 0.1rem #c0c0c0 solid;
@@ -128,3 +151,10 @@ html {
   .rating span:last-child{
       color: #404040;
   }
+
+  .success{
+      color: #20a020;
+  }
+.error{
+    color: #a02020;
+}
